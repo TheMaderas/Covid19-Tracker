@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Numbers about Covid-19 in Countries">
+    <meta name="keywords" content="covid, covid19, country covid, world covid">
+    <meta name="author" content="Discord: TheMadêras#5038">
+    <link rel="shortcut icon" type="image/png" href="https://images.squarespace-cdn.com/content/v1/5bf2a2a0b27e396eb3cb0dc4/1589911715450-RRKYEVNAK4HNQ0OY8YGY/corona+virus.png" />
+    <link rel="stylesheet" href="bootstrap_css/bootstrap.min.css" />
+    <link rel="stylesheet" href="indexs/style.css" />
+    <link rel="stylesheet" href="bootstrap_css/dataTables.bootstrap4.min.css" />
+    <script src="https://kit.fontawesome.com/492aa02ecb.js" crossorigin="anonymous"></script>
+    <title>CoronaVirus [Live]</title>
+
+  </head>
+
+  <body id="bodyflax">
+
+    <div class="jumbotron jumbotron-fluid color">
+      <div class="container">
+        <p class="live"><i class="far fa-dot-circle live-icon"></i> Live</p>
+        <hr/>
+        <h1 class="display-4">Dados sobre Covid-19</h1>
+        <hr/>
+        <p class="p2">Obtenha as ultimas atualizações mais recentes ... <br /></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                id="global"
+                data-toggle="tab"
+                href="#home"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true"
+                >[ Mundo ]</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="bycountry"
+                data-toggle="tab"
+                href="#profile"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+                >[ Países ]</a
+              >
+            </li>
+          </ul>
+
+
+
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="global">
+              <br>
+              <div id="image">
+                <img src="imgs/covid19.gif" alt="Trulli" width="360" height="200">
+              </div>
+
+              <div class="row cards-row">
+
+                
+                <div class="col-lg-4">
+                  <div class="card total-cases">
+                    <ul class="list-group list-group-flush bordercolorA">
+                      <li id="cases" class="list-group-item card-body">...</li>
+                      <li class="list-group-item card-footer">Casos</li> 
+                    </ul>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-4">
+                  <div class="card total-recovered">
+                    <ul class="list-group list-group-flush bordercolorB">
+                      <li id="recovered" class="list-group-item card-body">...</li>
+                      <li class="list-group-item card-footer">Recuperados</li>
+                    </ul>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-4">
+                  <div class="card total-deaths">
+                    <ul class="list-group list-group-flush bordercolorC">
+                      <li id="deaths" class="list-group-item card-body">...</li>
+                      <li class="list-group-item card-footer">Mortes</li>
+                    </ul>
+                  </div>
+                </div>
+
+
+
+              </div>
+              <hr/>
+
+            </div>
+
+
+
+            <div class="tab-pane fade mt-3 colorA" id="profile" role="tabpanel" aria-labelledby="bycountry">
+              <div class="table-responsive">
+                <table id="datatables" class="table table-bordered table-striped backcolor" width="100%">
+                  <thead>
+                    <tr>
+                      <th>N.º</th>
+                      <th>Países</th> 
+                      <th>Casos</th>
+                      <th>Países Hoje</th>
+                      <th>Mortes</th>
+                      <th>Mortes Hoje</th>
+                      <th>Recuperados</th>
+                      <th>Casos Ativos</th>
+                      <th>Crítico</th>
+                    </tr>
+                  </thead>
+                </table>
+                <br><br><br>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="bootstrap_js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap_js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="bootstrap_js/dataTables.bootstrap4.min.js"></script>
+    <script src="indexs/index.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,150 @@
+h3 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+hr{
+  border: 1px solid white;
+}
+
+.colorA{
+  color: white;
+}
+
+.backcolor{
+  background-color: #161e25;
+  color: white;
+}
+
+.bordercolorA{
+  border-style: solid;
+  border-color: red;
+  background-color: hotpink;
+}
+
+.bordercolorB{
+  border-style: solid;
+  border-color: green;
+}
+
+.bordercolorC{
+  border-style: solid;
+  border-color: black;
+}
+
+.color{
+  background-image: linear-gradient(#161e25, #00081e);
+  /*background-color: #1f2933;*/
+  font-family: monospace;
+  color: #E53E3E;
+}
+
+#image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 36%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.p2{
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cards-row{
+  width: 100%;
+}
+.card{
+  box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.1);
+  border-width: 0;
+  margin: 40px 0 40px 0;
+}
+.card li{
+  text-align: center;
+}
+.card-body{
+  font-size: 2rem;
+  font-weight: 700;
+  border-width: 0;
+}
+.card-footer{
+  border-width: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.total-cases .card-body{
+  background-color: rgb(41, 41, 41);
+  color: #E53E3E;
+}
+.total-cases .card-footer{
+  background-color: #121212;
+  color: #E53E3E;
+}
+.total-recovered .card-body{
+  background-color: rgb(41, 41, 41);
+  color: #38A169;
+}
+.total-recovered .card-footer{
+  background-color: #121212;
+  color: #38A169;
+}
+.total-deaths .card-body{
+  background-color: rgb(41, 41, 41);
+  color: #718096;
+}
+.total-deaths .card-footer{
+  background-color: #121212;
+  color: #718096;
+}
+/* new cards */
+
+#country-search .card-body{
+  font-size: 1.5rem;
+}
+
+.total-tests .card-body{
+  background-color: rgb(238, 255, 254);
+  color: rgb(35, 226, 226);
+}
+.total-tests .card-footer{
+  background-color: rgb(248, 255, 255);
+  color: rgb(35, 226, 226);
+}
+.cases-today .card-body{
+  background-color: rgb(255, 239, 214);
+  color: #ff912b;
+}
+.cases-today .card-footer{
+  background-color: rgb(255, 251, 248);
+  color: #ff912b;
+}
+.deaths-today .card-body{
+  background-color: rgb(255, 237, 250);
+  color: #e74bdf;
+}
+.deaths-today .card-footer{
+  background-color: #FFFFFF;
+  color: #e74bdf;
+}
+
+#bodyflax{
+  background-color: #00081e; 
+  user-select: none;
+}
+
+.live{
+  text-align: left;
+  padding: 0 0 0 15px;
+  color: #ee0c0c;
+  font-weight: 600;
+  margin-bottom: 0;
+  font-size: 20px;
+}
